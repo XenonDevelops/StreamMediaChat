@@ -1,0 +1,19 @@
+{
+  "name": "StreamXenonDev",
+  "version": "0.0.1-4",
+  "description": "Streaming de video",
+  "main": "server.js",
+  "author": "Angel Lagunas",
+  "dependencies": {
+    "node-static": "~0.7.1",
+    "socket.io": "~0.9.16",
+    "express": "~3.4.0"
+  },
+  "subdomain": "xenondevelops-StreamMediaChat",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
